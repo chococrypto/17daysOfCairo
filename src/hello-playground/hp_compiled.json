@@ -9,23 +9,29 @@
         "0x482680017ffc8000",
         "0x1",
         "0x208b7fff7fff7ffe",
+        "0x480a7ffb7fff8000",
         "0x480a7ffd7fff8000",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffffb",
+        "0x48297ffc80007ffd",
+        "0x20680017fff7fff",
+        "0x4",
+        "0x48127ffe7fff8000",
+        "0x208b7fff7fff7ffe",
+        "0x48127ffe7fff8000",
+        "0x480a7ffc7fff8000",
+        "0x482680017ffd8000",
+        "0x64",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff4",
+        "0x208b7fff7fff7ffe",
+        "0x480a7ffd7fff8000",
+        "0x480680017fff8000",
+        "0x190",
         "0x480680017fff8000",
         "0x64",
         "0x1104800180018000",
-        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffffa",
-        "0x480680017fff8000",
-        "0xc8",
-        "0x1104800180018000",
-        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff6",
-        "0x480680017fff8000",
-        "0x12c",
-        "0x1104800180018000",
-        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff2",
-        "0x480680017fff8000",
-        "0x190",
-        "0x1104800180018000",
-        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffee",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffec",
         "0x208b7fff7fff7ffe"
     ],
     "debug_info": {
@@ -136,7 +142,7 @@
             "4": {
                 "accessible_scopes": [
                     "__main__",
-                    "__main__.main"
+                    "__main__.print_hundredths"
                 ],
                 "flow_tracking_data": {
                     "ap_tracking": {
@@ -144,12 +150,14 @@
                         "offset": 0
                     },
                     "reference_ids": {
-                        "__main__.main.output_ptr": 3
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 5
                     }
                 },
                 "hints": [],
                 "inst": {
-                    "end_col": 28,
+                    "end_col": 40,
                     "end_line": 11,
                     "input_file": {
                         "filename": "hello-playground.cairo"
@@ -163,13 +171,13 @@
                             },
                             "parent_location": [
                                 {
-                                    "end_col": 24,
-                                    "end_line": 13,
+                                    "end_col": 25,
+                                    "end_line": 12,
                                     "input_file": {
                                         "filename": "hello-playground.cairo"
                                     },
                                     "start_col": 5,
-                                    "start_line": 13
+                                    "start_line": 12
                                 },
                                 "While trying to retrieve the implicit argument 'output_ptr' in:"
                             ],
@@ -178,14 +186,14 @@
                         },
                         "While expanding the reference 'output_ptr' in:"
                     ],
-                    "start_col": 11,
+                    "start_col": 23,
                     "start_line": 11
                 }
             },
             "5": {
                 "accessible_scopes": [
                     "__main__",
-                    "__main__.main"
+                    "__main__.print_hundredths"
                 ],
                 "flow_tracking_data": {
                     "ap_tracking": {
@@ -193,24 +201,38 @@
                         "offset": 1
                     },
                     "reference_ids": {
-                        "__main__.main.output_ptr": 3
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 5
                     }
                 },
                 "hints": [],
                 "inst": {
-                    "end_col": 23,
-                    "end_line": 13,
+                    "end_col": 51,
+                    "end_line": 11,
                     "input_file": {
                         "filename": "hello-playground.cairo"
                     },
-                    "start_col": 20,
-                    "start_line": 13
+                    "parent_location": [
+                        {
+                            "end_col": 24,
+                            "end_line": 12,
+                            "input_file": {
+                                "filename": "hello-playground.cairo"
+                            },
+                            "start_col": 20,
+                            "start_line": 12
+                        },
+                        "While expanding the reference 'init' in:"
+                    ],
+                    "start_col": 47,
+                    "start_line": 11
                 }
             },
-            "7": {
+            "6": {
                 "accessible_scopes": [
                     "__main__",
-                    "__main__.main"
+                    "__main__.print_hundredths"
                 ],
                 "flow_tracking_data": {
                     "ap_tracking": {
@@ -218,12 +240,69 @@
                         "offset": 2
                     },
                     "reference_ids": {
-                        "__main__.main.output_ptr": 3
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 5
                     }
                 },
                 "hints": [],
                 "inst": {
-                    "end_col": 24,
+                    "end_col": 25,
+                    "end_line": 12,
+                    "input_file": {
+                        "filename": "hello-playground.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 12
+                }
+            },
+            "8": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.print_hundredths"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 13,
+                    "input_file": {
+                        "filename": "hello-playground.cairo"
+                    },
+                    "start_col": 8,
+                    "start_line": 13
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.print_hundredths"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.print_hundredths.__temp0": 7,
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 7,
                     "end_line": 13,
                     "input_file": {
                         "filename": "hello-playground.cairo"
@@ -232,35 +311,10 @@
                     "start_line": 13
                 }
             },
-            "9": {
-                "accessible_scopes": [
-                    "__main__",
-                    "__main__.main"
-                ],
-                "flow_tracking_data": {
-                    "ap_tracking": {
-                        "group": 1,
-                        "offset": 5
-                    },
-                    "reference_ids": {
-                        "__main__.main.output_ptr": 4
-                    }
-                },
-                "hints": [],
-                "inst": {
-                    "end_col": 23,
-                    "end_line": 15,
-                    "input_file": {
-                        "filename": "hello-playground.cairo"
-                    },
-                    "start_col": 20,
-                    "start_line": 15
-                }
-            },
             "11": {
                 "accessible_scopes": [
                     "__main__",
-                    "__main__.main"
+                    "__main__.print_hundredths"
                 ],
                 "flow_tracking_data": {
                     "ap_tracking": {
@@ -268,24 +322,223 @@
                         "offset": 6
                     },
                     "reference_ids": {
-                        "__main__.main.output_ptr": 4
+                        "__main__.print_hundredths.__temp0": 7,
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 6
                     }
                 },
                 "hints": [],
                 "inst": {
-                    "end_col": 24,
-                    "end_line": 15,
+                    "end_col": 38,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "/Users/batman-mini/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/serialize.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 25,
+                            "end_line": 12,
+                            "input_file": {
+                                "filename": "hello-playground.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 40,
+                                    "end_line": 11,
+                                    "input_file": {
+                                        "filename": "hello-playground.cairo"
+                                    },
+                                    "parent_location": [
+                                        {
+                                            "end_col": 18,
+                                            "end_line": 14,
+                                            "input_file": {
+                                                "filename": "hello-playground.cairo"
+                                            },
+                                            "start_col": 9,
+                                            "start_line": 14
+                                        },
+                                        "While trying to retrieve the implicit argument 'output_ptr' in:"
+                                    ],
+                                    "start_col": 23,
+                                    "start_line": 11
+                                },
+                                "While expanding the reference 'output_ptr' in:"
+                            ],
+                            "start_col": 5,
+                            "start_line": 12
+                        },
+                        "While trying to update the implicit return value 'output_ptr' in:"
+                    ],
+                    "start_col": 21,
+                    "start_line": 2
+                }
+            },
+            "12": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.print_hundredths"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 7
+                    },
+                    "reference_ids": {
+                        "__main__.print_hundredths.__temp0": 7,
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 18,
+                    "end_line": 14,
                     "input_file": {
                         "filename": "hello-playground.cairo"
                     },
-                    "start_col": 5,
-                    "start_line": 15
+                    "start_col": 9,
+                    "start_line": 14
                 }
             },
             "13": {
                 "accessible_scopes": [
                     "__main__",
-                    "__main__.main"
+                    "__main__.print_hundredths"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.print_hundredths.__temp0": 7,
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 38,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "/Users/batman-mini/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/serialize.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 25,
+                            "end_line": 12,
+                            "input_file": {
+                                "filename": "hello-playground.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 40,
+                                    "end_line": 11,
+                                    "input_file": {
+                                        "filename": "hello-playground.cairo"
+                                    },
+                                    "parent_location": [
+                                        {
+                                            "end_col": 45,
+                                            "end_line": 16,
+                                            "input_file": {
+                                                "filename": "hello-playground.cairo"
+                                            },
+                                            "start_col": 5,
+                                            "start_line": 16
+                                        },
+                                        "While trying to retrieve the implicit argument 'output_ptr' in:"
+                                    ],
+                                    "start_col": 23,
+                                    "start_line": 11
+                                },
+                                "While expanding the reference 'output_ptr' in:"
+                            ],
+                            "start_col": 5,
+                            "start_line": 12
+                        },
+                        "While trying to update the implicit return value 'output_ptr' in:"
+                    ],
+                    "start_col": 21,
+                    "start_line": 2
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.print_hundredths"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 7
+                    },
+                    "reference_ids": {
+                        "__main__.print_hundredths.__temp0": 7,
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 45,
+                    "end_line": 11,
+                    "input_file": {
+                        "filename": "hello-playground.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 25,
+                            "end_line": 16,
+                            "input_file": {
+                                "filename": "hello-playground.cairo"
+                            },
+                            "start_col": 22,
+                            "start_line": 16
+                        },
+                        "While expanding the reference 'max' in:"
+                    ],
+                    "start_col": 42,
+                    "start_line": 11
+                }
+            },
+            "15": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.print_hundredths"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 8
+                    },
+                    "reference_ids": {
+                        "__main__.print_hundredths.__temp0": 7,
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 44,
+                    "end_line": 16,
+                    "input_file": {
+                        "filename": "hello-playground.cairo"
+                    },
+                    "start_col": 34,
+                    "start_line": 16
+                }
+            },
+            "17": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.print_hundredths"
                 ],
                 "flow_tracking_data": {
                     "ap_tracking": {
@@ -293,93 +546,98 @@
                         "offset": 9
                     },
                     "reference_ids": {
-                        "__main__.main.output_ptr": 5
+                        "__main__.print_hundredths.__temp0": 7,
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 6
                     }
                 },
                 "hints": [],
                 "inst": {
-                    "end_col": 23,
-                    "end_line": 17,
-                    "input_file": {
-                        "filename": "hello-playground.cairo"
-                    },
-                    "start_col": 20,
-                    "start_line": 17
-                }
-            },
-            "15": {
-                "accessible_scopes": [
-                    "__main__",
-                    "__main__.main"
-                ],
-                "flow_tracking_data": {
-                    "ap_tracking": {
-                        "group": 1,
-                        "offset": 10
-                    },
-                    "reference_ids": {
-                        "__main__.main.output_ptr": 5
-                    }
-                },
-                "hints": [],
-                "inst": {
-                    "end_col": 24,
-                    "end_line": 17,
+                    "end_col": 45,
+                    "end_line": 16,
                     "input_file": {
                         "filename": "hello-playground.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 17
-                }
-            },
-            "17": {
-                "accessible_scopes": [
-                    "__main__",
-                    "__main__.main"
-                ],
-                "flow_tracking_data": {
-                    "ap_tracking": {
-                        "group": 1,
-                        "offset": 13
-                    },
-                    "reference_ids": {
-                        "__main__.main.output_ptr": 6
-                    }
-                },
-                "hints": [],
-                "inst": {
-                    "end_col": 23,
-                    "end_line": 19,
-                    "input_file": {
-                        "filename": "hello-playground.cairo"
-                    },
-                    "start_col": 20,
-                    "start_line": 19
+                    "start_line": 16
                 }
             },
             "19": {
                 "accessible_scopes": [
                     "__main__",
-                    "__main__.main"
+                    "__main__.print_hundredths"
                 ],
                 "flow_tracking_data": {
                     "ap_tracking": {
-                        "group": 1,
-                        "offset": 14
+                        "group": 2,
+                        "offset": 0
                     },
                     "reference_ids": {
-                        "__main__.main.output_ptr": 6
+                        "__main__.print_hundredths.__temp0": 7,
+                        "__main__.print_hundredths.init": 4,
+                        "__main__.print_hundredths.max": 3,
+                        "__main__.print_hundredths.output_ptr": 8
                     }
                 },
                 "hints": [],
                 "inst": {
-                    "end_col": 24,
-                    "end_line": 19,
+                    "end_col": 14,
+                    "end_line": 17,
                     "input_file": {
                         "filename": "hello-playground.cairo"
                     },
                     "start_col": 5,
-                    "start_line": 19
+                    "start_line": 17
+                }
+            },
+            "20": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 28,
+                    "end_line": 20,
+                    "input_file": {
+                        "filename": "hello-playground.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 40,
+                            "end_line": 11,
+                            "input_file": {
+                                "filename": "hello-playground.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 31,
+                                    "end_line": 21,
+                                    "input_file": {
+                                        "filename": "hello-playground.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 21
+                                },
+                                "While trying to retrieve the implicit argument 'output_ptr' in:"
+                            ],
+                            "start_col": 23,
+                            "start_line": 11
+                        },
+                        "While expanding the reference 'output_ptr' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 20
                 }
             },
             "21": {
@@ -389,22 +647,97 @@
                 ],
                 "flow_tracking_data": {
                     "ap_tracking": {
-                        "group": 1,
-                        "offset": 17
+                        "group": 3,
+                        "offset": 1
                     },
                     "reference_ids": {
-                        "__main__.main.output_ptr": 7
+                        "__main__.main.output_ptr": 9
                     }
                 },
                 "hints": [],
                 "inst": {
-                    "end_col": 15,
+                    "end_col": 25,
+                    "end_line": 21,
+                    "input_file": {
+                        "filename": "hello-playground.cairo"
+                    },
+                    "start_col": 22,
+                    "start_line": 21
+                }
+            },
+            "23": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 21,
+                    "input_file": {
+                        "filename": "hello-playground.cairo"
+                    },
+                    "start_col": 27,
+                    "start_line": 21
+                }
+            },
+            "25": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 31,
                     "end_line": 21,
                     "input_file": {
                         "filename": "hello-playground.cairo"
                     },
                     "start_col": 5,
                     "start_line": 21
+                }
+            },
+            "27": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 10
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 15,
+                    "end_line": 22,
+                    "input_file": {
+                        "filename": "hello-playground.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 22
                 }
             }
         }
@@ -413,7 +746,7 @@
     "identifiers": {
         "__main__.main": {
             "decorators": [],
-            "pc": 4,
+            "pc": 20,
             "type": "function"
         },
         "__main__.main.Args": {
@@ -447,42 +780,133 @@
             "references": [
                 {
                     "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 20,
+                    "value": "[cast(fp + (-3), felt**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 27,
+                    "value": "[cast(ap + (-1), felt**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.print_hundredths": {
+            "decorators": [],
+            "pc": 4,
+            "type": "function"
+        },
+        "__main__.print_hundredths.Args": {
+            "full_name": "__main__.print_hundredths.Args",
+            "members": {
+                "init": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "max": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "__main__.print_hundredths.ImplicitArgs": {
+            "full_name": "__main__.print_hundredths.ImplicitArgs",
+            "members": {
+                "output_ptr": {
+                    "cairo_type": "felt*",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.print_hundredths.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "__main__.print_hundredths.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.print_hundredths.__temp0": {
+            "cairo_type": "felt",
+            "full_name": "__main__.print_hundredths.__temp0",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "pc": 9,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.print_hundredths.init": {
+            "cairo_type": "felt",
+            "full_name": "__main__.print_hundredths.init",
+            "references": [
+                {
+                    "ap_tracking_data": {
                         "group": 1,
                         "offset": 0
                     },
                     "pc": 4,
-                    "value": "[cast(fp + (-3), felt**)]"
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.print_hundredths.max": {
+            "cairo_type": "felt",
+            "full_name": "__main__.print_hundredths.max",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.print_hundredths.output_ptr": {
+            "cairo_type": "felt*",
+            "full_name": "__main__.print_hundredths.output_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-5), felt**)]"
                 },
                 {
                     "ap_tracking_data": {
                         "group": 1,
                         "offset": 5
                     },
-                    "pc": 9,
+                    "pc": 8,
                     "value": "[cast(ap + (-1), felt**)]"
                 },
                 {
                     "ap_tracking_data": {
-                        "group": 1,
-                        "offset": 9
+                        "group": 2,
+                        "offset": 0
                     },
-                    "pc": 13,
-                    "value": "[cast(ap + (-1), felt**)]"
-                },
-                {
-                    "ap_tracking_data": {
-                        "group": 1,
-                        "offset": 13
-                    },
-                    "pc": 17,
-                    "value": "[cast(ap + (-1), felt**)]"
-                },
-                {
-                    "ap_tracking_data": {
-                        "group": 1,
-                        "offset": 17
-                    },
-                    "pc": 21,
+                    "pc": 19,
                     "value": "[cast(ap + (-1), felt**)]"
                 }
             ],
@@ -600,38 +1024,62 @@
                     "offset": 0
                 },
                 "pc": 4,
-                "value": "[cast(fp + (-3), felt**)]"
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-5), felt**)]"
             },
             {
                 "ap_tracking_data": {
                     "group": 1,
                     "offset": 5
                 },
+                "pc": 8,
+                "value": "[cast(ap + (-1), felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 6
+                },
                 "pc": 9,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 19,
                 "value": "[cast(ap + (-1), felt**)]"
             },
             {
                 "ap_tracking_data": {
-                    "group": 1,
-                    "offset": 9
+                    "group": 3,
+                    "offset": 0
                 },
-                "pc": 13,
-                "value": "[cast(ap + (-1), felt**)]"
+                "pc": 20,
+                "value": "[cast(fp + (-3), felt**)]"
             },
             {
                 "ap_tracking_data": {
-                    "group": 1,
-                    "offset": 13
+                    "group": 4,
+                    "offset": 0
                 },
-                "pc": 17,
-                "value": "[cast(ap + (-1), felt**)]"
-            },
-            {
-                "ap_tracking_data": {
-                    "group": 1,
-                    "offset": 17
-                },
-                "pc": 21,
+                "pc": 27,
                 "value": "[cast(ap + (-1), felt**)]"
             }
         ]

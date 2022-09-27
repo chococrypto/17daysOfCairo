@@ -8,15 +8,16 @@
 // Import the serialize_word() function.
 from starkware.cairo.common.serialize import serialize_word
 
+func print_hundredths{output_ptr: felt*}(max, init) {
+    serialize_word(init);
+    if(init == max) {
+        return();
+    }
+    print_hundredths(max, init = init + 100);
+    return();
+}
+
 func main{output_ptr: felt*}() {
-    // Output 100 by calling serialize_word.
-    serialize_word(100);
-    // Output 200.
-    serialize_word(200);
-    // Output 300.
-    serialize_word(300);
-    // Output 400.
-    serialize_word(400);
-    // Return.
+    print_hundredths(400, 100);
     return ();
 }
