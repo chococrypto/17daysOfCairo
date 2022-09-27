@@ -21,3 +21,17 @@ Program output:
   300
   400
 ```
+
+## Day 2: Functions
+```bash
+cd src/functions/
+source ~/cairo_venv/bin/activate
+cairo-compile functions.cairo --output fn_compiled.json 
+cairo-run --program=fn_compiled.json --print_output --layout=small
+```
+
+Output
+
+```
+// nothing
+```
