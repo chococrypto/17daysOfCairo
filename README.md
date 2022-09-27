@@ -1,5 +1,9 @@
 # 17daysOfCairo
 
+challenge
+
+https://newtonso.notion.site/17-days-of-Cairo-Lang-with-Newton-550dfcda6a2d449ca468be293c776578
+
 ## Day 1: Hello Playground
 ```bash
 cd src/hello-playground/
