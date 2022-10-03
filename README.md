@@ -52,3 +52,23 @@ Output
 ```
 // nothing
 ```
+## Day 4 to 6: Rest for me
+
+Best answer:
+- [day 4](https://www.newton.wtf/view/633599f4f606018e7efe3834#answer-6336bbbee888c06bf90c9bff)
+- [day 5](https://www.newton.wtf/view/63372c85f20834f8447ac533#answer-6337d9d696ac12780c1a1c71)
+- [day 6](https://www.newton.wtf/view/6338877f6d6541037b9a4189#answer-6338e3454738f38f5fa6b52f)
+
+## Day 7: Recursion
+https://www.newton.wtf/view/6339c1d5e55ade8283f832e8
+```bash
+cd src/recursion/
+source ~/cairo_venv/bin/activate
+cairo-compile recursion.cairo --output r_compiled.json 
+cairo-run --program=r_compiled.json --print_output --layout=small
+```
+
+Output
+```
+// nothing
+```
