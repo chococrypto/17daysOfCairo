@@ -11,18 +11,15 @@
 from starkware.cairo.common.serialize import serialize_word
 
 func compute_sum{output_ptr: felt*}(n: felt) -> (sum: felt) {
-
+    // serialize_word(n) -> print 10, 9, 8, 7, ... 0
     if (n == 0) {
         // When 0 is reached, return 0.
         return (sum=0);
     }
-
-    // Otherwise, call `compute_sum` recursively to compute 1 + 2 + ... + (n-1).
-    
     let (sum) = compute_sum(n=n - 1);
-    // Add the new value `n` to the sum.
+    // serialize_word(n) -> print 1, 2, 3, 4, ... 10
     let new_sum = sum + n;
-    serialize_word(new_sum);
+    serialize_word(new_sum); // --> print 1, 3, 6, ... 55
     return (sum=new_sum);
 }
 
