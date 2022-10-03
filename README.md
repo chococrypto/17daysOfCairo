@@ -70,5 +70,14 @@ cairo-run --program=r_compiled.json --print_output --layout=small
 
 Output
 ```
-// nothing
+  1
+  3
+  6
+  10
+  15
+  21
+  28
+  36
+  45
+  55
 ```
